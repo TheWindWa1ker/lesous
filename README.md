@@ -23,13 +23,13 @@ Only works horizontally.
 1. Open terminal and run the following to download the cheat source code
 
 ```
-git clone https://github.com/arturzxc/myapex.git
+git clone https://github.com/TheWindWa1ker/lesous.git
 ```
 
 2. Go inside the downloaded folder
 
 ```
-cd myapex
+cd lesous
 ```
 
 3. Compile the code 
@@ -73,7 +73,7 @@ Check your settings and make sure the features you want to use are set to true b
 
 
 ### Why aimbot is not working!?
-Aimbot is disabled by default. If you want it to work then edit myapex.ini and set it to true.
+Aimbot is disabled by default. If you want it to work then edit lesous.ini and set it to true.
 
 ### I am getting "... fatal error: X11/Xlib.h ... "
 You are missing X11 library for linux. On ubuntu based distros, you can install it with the command below
