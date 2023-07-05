@@ -82,9 +82,9 @@ public:
         }
         else
         {
-            if (m_lockedOnPlayer == nullptr || !m_lockedOnPlayer->isVisible())
-                m_lockedOnPlayer = findClosestEnemy();
             if (m_lockedOnPlayer == nullptr)
+                m_lockedOnPlayer = findClosestEnemy();
+            if (m_lockedOnPlayer == nullptr || !m_lockedOnPlayer->isVisible())
                 return;
             double distanceToTarget = math::calculateDistanceInMeters(m_localPlayer->getLocationX(),
                                                                       m_localPlayer->getLocationY(),
